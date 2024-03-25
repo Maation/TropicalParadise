@@ -4,6 +4,7 @@ const allNavItems = document.querySelectorAll('.nav__item')
 const navBtnBars = document.querySelector('.burger-btn__bars')
 const allSections = document.querySelectorAll('.section')
 const footerYear = document.querySelector('.footer__year')
+const submitBtn = document.querySelector('#submit-cont')
 
 const handleNav = () => {
 	nav.classList.toggle('nav--active')
@@ -46,6 +47,14 @@ const handleCurrentYear = () => {
 	footerYear.innerText = year
 }
 
+const submitCont = () => {
+	name = document.querySelector('#name').value
+	email = document.querySelector('#email').value
+	text = document.querySelector('#msg').value
+	alert(`Twoje imie to ${name}\nTwój emia to ${email}\nTekst który wpisałeś to ${text}`)
+}
+
 handleCurrentYear()
 navBtn.addEventListener('click', handleNav)
 window.addEventListener('scroll', handleObserver)
+submitBtn.addEventListener('click', submitCont)
