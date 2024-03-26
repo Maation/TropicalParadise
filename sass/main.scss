@@ -500,7 +500,7 @@ body {
 	.wrapper {
 		padding: 6em 2em 2em;
 	}
-
+	
 	&__box {
 		font-size: 1.4rem;
 	}
@@ -533,6 +533,7 @@ body {
 		&:hover {
 			color: $light-white;
 		}
+
 	}
 
 	&__bottom-text {
