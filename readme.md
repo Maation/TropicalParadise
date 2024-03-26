@@ -1,5 +1,4 @@
-## TropicalParadise
-==============================================
+TropicalParadise
 
 REPO(https://github.com/Maation/TropicalParadise)
 
